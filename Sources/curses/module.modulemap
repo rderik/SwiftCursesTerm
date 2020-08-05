@@ -1,0 +1,5 @@
+module curses {
+  header "curses.h"
+  link "ncurses"
+  export *
+}
