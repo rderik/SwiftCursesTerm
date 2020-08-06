@@ -117,6 +117,14 @@ public class SwiftCursesTerm {
         setAttributes([TextAttribute.normal])
     }
 
+    public func noDelay(window: Int? = nil, _ active: Bool) {
+        if let window = window {
+            curses.nodelay(windows[window - 1], active)
+        } else {
+            curses.nodelay(stdscr, active)
+        }
+    }
+
     public func shutdown() {
         guard windows.count > 0 else { endwin(); return }
         for i in (1 ... windows.count).reversed() {
