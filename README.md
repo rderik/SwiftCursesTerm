@@ -2,8 +2,16 @@
 
 You can use the SwiftcursesTerm library to create text based interfaces for your command-line tools. The library uses C `ncurses(3)` library. Currently the library is a work in progress, so the API might change to prived a more Swifty library.
 
+If you are interested in seeing a full implementation, the following post shows how to build a text-based clock using this library:
+
+[https://rderik.com/blog/building-a-text-based-application-using-swift-and-ncurses/](https://rderik.com/blog/building-a-text-based-application-using-swift-and-ncurses/)
+
+And the code for that application can be found in the following GitHub repository:
+
+[https://github.com/rderik/clock](https://github.com/rderik/clock)
 
 # Using it on your command-line tools
+
 
 You need to add it as a dependencty to your package manifesto `Package.swift`. For example:
 
