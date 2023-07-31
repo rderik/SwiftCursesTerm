@@ -41,7 +41,7 @@ let package = Package(
 )
 ```
 
-Check the latest release version at [https://github.com/rderik/SwiftCursesTerm/Releases/latest](https://github.com/rderik/SwiftCursesTerm/Releases/latest).
+Check the latest release version at [https://github.com/rderik/SwiftCursesTerm/releases/latest](https://github.com/rderik/SwiftCursesTerm/releases/latest).
 
 
 Now you can import `SwiftCursesTerm` and use all of its functionality.
