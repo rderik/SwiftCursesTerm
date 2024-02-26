@@ -103,4 +103,6 @@ If you want to contribute:
 
 Derik Ramirez - [https://rderik.com](https://rderik.com)
 
+# License
 
+This library is under the [MIT Licence][./LICENSE]
